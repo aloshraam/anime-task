@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font-Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Anime_Task</title>
+</head>
+<body class="bg-[#07061d]">
+    <header>
+        <!-- nav bar -->
+        <nav class="flex justify-between absolute items-center w-full px-5">
+            <img class="w-40" src="./images/logo.png" alt="">
+            <ul class="flex">
+                <li class="list-none inline-block px-3 py-9 "><a class="text-white hover:text-red-500 hover:underline transition duration-500 delay-2000" href="#">Home</a></li>
+                <li class="list-none inline-block px-3 py-9 "><a class="text-white hover:text-red-500 hover:underline transition duration-500 delay-2000" href="#explore">Explore</a></li>
+                <li class="list-none inline-block px-3 py-9 "><a class="text-white hover:text-red-500 hover:underline transition duration-500 delay-2000" href="#about">About</a></li>
+                <li class="list-none inline-block px-3 py-9 "><a class="text-white hover:text-red-500 hover:underline transition duration-500 delay-2000" href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- top-vertical-image -->
+        <div>
+            <img class="hidden md:block md:w-full md:object-cover md:h-96" src="./images/aot.jpeg" alt="">
+            <img class="object-cover w-full md:hidden " src="./images/sm-berk.jpg" alt="">
+        </div>
+        <!-- image-grid-format -->
+        <section class="hidden md:block md:w-full md:px-96 md:py-32">
+            <div class="grid grid-cols-3 gap-4 ">
+                <!-- coloum 1 -->
+                <div class="row-span-2 ">
+                    <img class=" object-cover w-full h-full" src="./images/vertical-1.jpg" alt="">
+                </div>
+                <div>
+                    <img class=" object-cover w-full h-full" src="./images/landscape-1.jpg" alt="">
+                </div>
+                <div class="row-span-2 ">
+                    <img class=" object-cover w-full h-full" src="./images/vertical-2.jpg" alt="">
+                </div>
+                <!-- coloum 2 -->
+                <div class="row-span-2">
+                    <img class=" object-cover w-full h-full" src="./images/vertical-3.jpg" alt="">
+                </div>
+                <div>
+                    <img class=" object-cover w-full h-full" src="./images/landscape-2.jpg" alt="">
+                </div>
+                <div>
+                    <img class=" object-cover w-full h-full" src="./images/landscape-3.jpg" alt="">
+                </div>
+
+            </div>
+        </section>
+        <!-- Explore-section -->
+        <section id="explore">     
+            <h1 class="p-4 text-red-600 text-5xl ">Watch Shows Now <span>&#8595;</span></h1>
+
+            <div class="px-32 py-4 flex flex-wrap gap-8 justify-center">
+
+                <div class="h-16">
+                    <img src="./images/aot-cover.jpg" class="object-cover w-[288px] h-[380px]" alt="...">
+                    <div class="card-body" style="height: 30px;" >
+                        <p class="bg-white text-xl text-blue-700 p-2">Attack on Titan</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/jjk-cover.jpg" class="object-cover w-[288px] h-[380px]" alt="...">
+                    <div class="card-body" style="height: 30px;">
+                        <p class="bg-white text-xl text-blue-700 p-2">Jujutsu Kaisen</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/blackclover-cover.jpg" class="object-cover w-[288px] h-[380px]" alt="...">
+                    <div class="card-body" style="height: 30px;">
+                        <p class="bg-white text-xl text-blue-700 p-2">Black Clover</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/berserk.jpg" class="object-cover w-[288px] h-[380px]"alt="...">
+                    <div class="card-body" style="height: 30px;"">
+                        <p class="bg-white text-xl text-blue-700 p-2">Berserk</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/bleach.jpg" class="object-cover w-[288px] h-[380px]" alt="...">
+                    <div class="card-body" style="height: 30px;"">
+                        <p class="bg-white text-xl text-blue-700 p-2">Bleach</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/bluelock.jpg" class="object-cover w-[288px] h-[380px]" alt="...">
+                    <div class="card-body" style="height: 30px;">
+                        <p class="bg-white text-xl text-blue-700 p-2">Blue Lock</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/haikyui.jpg" class="object-cover w-[288px] h-[380px]" alt="...">
+                    <div class="card-body" style="height: 30px;">
+                        <p class="bg-white text-xl text-blue-700 p-2">Haikyui</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/ippo.jpg" class="object-cover w-[288px] h-[380px]" alt="...">
+                    <div class="card-body" style="height: 30px;">
+                        <p class="bg-white text-xl text-blue-700 p-2">Hajimeno Ippo</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/mob.jpg" class="object-cover w-[288px] h-[380px]" alt="...">
+                    <div class="card-body" style="height: 30px;">
+                        <p class="bg-white text-xl text-blue-700 p-2">Mob Psycho 100</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/naruto-cover.jpg" class="object-cover w-[288px] h-[380px]" alt="...">
+                    <div class="card-body" style="height: 30px;"">
+                        <p class="bg-white text-xl text-blue-700 p-2">Naruto</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/onepeice-cover.jpg" class="object-cover w-[288px] h-[380px]" alt="...">
+                    <div class="card-body" style="height: 30px;"">
+                        <p class="bg-white text-xl text-blue-700 p-2">One Piece</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/vinlandsaga.jpg" class="object-cover w-[288px] h-[380px]" alt="...">
+                    <div class="card-body" style="height: 30px;"">
+                        <p class="bg-white text-xl text-blue-700 p-2">Vinland Saga</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- About-section -->
+        <section id="about" class="text-white p-8">
+            <h1 class="text-6xl text-red-600 p-4">About Us</h1>
+            <div class="text-xl">
+                <p class="text-justify p-2">Welcome to our anime haven! Dive into a world where storytelling and stunning visuals come together to create unforgettable experiences. Our website is a curated space for anime enthusiasts, offering a collection of popular series from classics to the latest trending shows. Whether you're a fan of action-packed adventures like Attack on Titan and Jujutsu Kaisen, or heartwarming tales like Haikyuu!! and Blue Lock, we have something for everyone.</p>
+
+                <p class="text-justify p-2">Our mission is to bring the best of anime to your screen, with a user-friendly design that makes it easy to explore and find your next favorite show. Join us as we celebrate the incredible worlds, characters, and stories that make anime so special. Lets embark on this animated journey together!</p>
+
+                <p class="text-justify p-2">Feel free to tweak this as you like, depending on the tone and style you want for your website.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="text-white p-2  md:p-8 bg-black md:h-96">
+        <h1 class="text-center text-3xl underline underline-offset-4">Contact Us</h1>
+        <div class="text-4xl p-16 flex gap-11 justify-center items-center">
+            <a class="hover:text-red-500 duration-500 delay-2000" href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a class="hover:text-red-500 duration-500 delay-2000" href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a class="hover:text-red-500 duration-500 delay-2000" href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a class="hover:text-red-500 duration-500 delay-2000" href="#"><i class="fa-brands fa-threads"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
