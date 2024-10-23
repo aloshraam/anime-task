@@ -7,9 +7,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Font-Awesome Cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Anime_Task</title>
 </head>
-<body class="bg-[#07061d]">
+<body class="bg-[#07061d] relative">
     <header>
         <!-- nav bar -->
         <nav class="flex justify-between absolute items-center w-full px-5">
@@ -24,6 +25,10 @@
     </header>
 
     <main>
+         <!-- Overlay Text -->
+        <div class= "hidden md:block absolute md:z-1 md:p-6 md:mt-72 md:w-full" >
+            <h1 class="serif font-semibold text-white text-9xl ">Dive into worlds beyond reality</h1>
+        </div>
         <!-- top-vertical-image -->
         <div>
             <img class="hidden md:block md:w-full md:object-cover md:h-96" src="./images/aot.jpeg" alt="">
@@ -57,7 +62,7 @@
         </section>
         <!-- Explore-section -->
         <section id="explore">     
-            <h1 class="p-4 text-red-600 text-5xl ">Watch Shows Now <span>&#8595;</span></h1>
+            <h1 class="p-4 text-red-600 text-5xl p-8 ">Watch Shows Now <span>&#8595;</span></h1>
 
             <div class="px-32 py-4 flex flex-wrap gap-8 justify-center">
 
